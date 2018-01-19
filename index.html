@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker 3.0</title>
+</head>
+<style>
+  #adminForm{
+    display: none;
+  }
+</style>
+<body>
+        <h3>Cat's Available:</h3>
+        <ul id = 'catList'></ul>
+        <h1> Click the Cat!</h1>
+        <h3 id = "catName"></h3>
+        <div id = 'clickCounter'></div>
+        <img id = 'catImage' src = "" alt = 'cute cat'><br>
+        <button id = 'adminButton'>Admin Mode</button>
+        <form id = 'adminForm'>
+            Cat's Name:<br>
+            <input id = 'catNameInput' type="text" name="catName" placeholder = ""><br>
+            Image URL:<br>
+            <input id = 'catImageInput' type="text" name="catImage" placeholder = ""><br>
+            Number of Clicks:<br>
+            <input id = 'clickCountInput' type ="text" name="clickCount" placeholder = ""><br>
+            <button type = 'button' id = 'cancelButton'>Cancel</button>
+            <button type = 'button' id = 'saveButton'>Save</button>
+        </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+
+</body>
+
+</html>
